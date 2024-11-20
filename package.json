@@ -1,0 +1,12 @@
+{
+    "name": "alura-geek",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "startDb": "json-server --watch ./database/db.json --port 3001"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang=pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/modern-normalize.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <title>Alura Geek - Admin</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__title">Alura Geek</h1>
+            <nav class="header__nav">
+                <div class="header__menu__icon">
+                    <span class="header__menu__icon__line"></span>
+                    <span class="header__menu__icon__line"></span>
+                    <span class="header__menu__icon__line"></span> 
+                </div>
+                <ul class="header__list">
+                    <li class="header__list__item">
+                        <a href="../index.html" class="header__list__link">Home</a>
+                    </li>
+                    <li class="header__list__item">
+                        <a href="../pages/admin-products.html" class="header__list__link">Admin</a>
+                    </li>
+                </ul>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <Main class="main">
+        <section class="admin" role="region" aria-labelledby="admin-title">
+            <div class="admin__header">
+                <h1 id="admin-title" class="admin__title">Controle de Produtos:</h1>
+                <a href="create-product.html" class="admin__new btn" aria-label="Adicionar novo produto">Novo Produto</a>
+            </div>
+            <table class="admin__products__table">
+                <caption class="table__title">Lista de produtos</caption>
+                <thead>
+                    <tr class="table__row">
+                        <th scope="col">Imagem</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Ações</th>
+                    </tr>
+                </thead>
+                <tbody data-products>
+                </tbody>
+            </table>
+        </section>
+        
+    </Main>
+    <script src="../js/menu.js"></script>
+    <script type="module" src="../js/controllers/adminController.js"></script>
+</body>
+</html>

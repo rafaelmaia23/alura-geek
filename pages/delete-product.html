@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang=pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/modern-normalize.css">
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/components/header.css">
+    <link rel="stylesheet" href="/styles/components/products.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <title>Alura Geek</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__title">Alura Geek</h1>
+            <nav class="header__nav">
+                <div class="header__menu__icon">
+                    <span class="header__menu__icon__line"></span>
+                    <span class="header__menu__icon__line"></span>
+                    <span class="header__menu__icon__line"></span> 
+                </div>
+                <ul class="header__list">
+                    <li class="header__list__item">
+                        <a href="../index.html" class="header__list__link">Home</a>
+                    </li>
+                    <li class="header__list__item">
+                        <a href="../pages/admin-products.html" class="header__list__link">Admin</a>
+                    </li>
+                </ul>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <Main class="main">
+        <section class="products">
+            <h1 class="products__title">Deletar Produto:</h1>
+            <form class="products__form" data-form>
+                <div class="products__form__item">
+                    <label for="name" class="products__label">Nome:</label>
+                    <input type="text" name="name" id="name" class="products__input" disabled data-name>
+                </div>
+                <div class="products__form__item">
+                    <label for="description" class="products__label">Descrição:</label>
+                    <input type="text" name="description" id="description" class="products__input" disabled data-description>
+                </div>
+                <div class="products__form__item">
+                    <label for="price" class="products__label">Preço:</label>
+                    <input 
+                        type="number" 
+                        name="price" 
+                        id="price" 
+                        class="products__input" 
+                        disabled 
+                        step="0.01" 
+                        data-price
+                    >
+                </div>
+                <div class="products__form__item">
+                    <label for="image" class="products__label">Imagem:</label>
+                    <input type="text" name="image" id="image" class="products__input" disabled data-image>
+                </div>
+                <input type="hidden" name="id" id="id" data-id>
+                <button type="submit" class="products__submit btn delete__btn">Deletar</button>
+        </section>
+    </Main>
+    <script src="../js/menu.js"></script>
+    <script type="module" src="../js/controllers/deleteProductController.js"></script>
+</body>
+</html>

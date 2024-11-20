@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "name": "Camiseta Star Wars 1",
+      "description": "Camiseta preta com estampa do Darth Vader e a Estrela da Morte.",
+      "price": "59.70",
+      "image": "https://m.media-amazon.com/images/I/41Ktj1G4CwL._AC_.jpg",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Caneca Hogwarts",
+      "description": "Caneca personalizada com o brasão da escola de magia de Hogwarts.",
+      "price": 29.9,
+      "image": "https://images-americanas.b2w.io/produtos/1677364201/imagens/caneca-hogwarts-presente-harry-potter-personalizado/1677364210_1_large.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Funko Pop - Homem de Ferro",
+      "description": "Figura colecionável Funko Pop do Homem de Ferro, da Marvel.",
+      "price": 89.9,
+      "image": "https://cdn.awsli.com.br/600x700/84/84034/produto/168561276/funko-pop--marvel-avengers-iron-man-467-exclusivo-c-1--800-bb8lrqlaf3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Luminária Pokebola",
+      "description": "Luminária em formato de Pokebola, ideal para fãs de Pokémon.",
+      "price": 99.9,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD2SZp9qI7gQp2X3cGOUBeuVVWQtWtj15V1ftOJBjS4gL203CIx2vgMoVtf3bQFw2uDr4&usqp=CAU"
+    },
+    {
+      "id": 5,
+      "name": "Almofada Game Over",
+      "description": "Almofada com estampa de game over, perfeita para gamers.",
+      "price": 45,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQZSlrQdyiBfSeiwkk9q5ybqSHE2XJ7BON2zuS1NFtA0E9EFHqS7f12upaP8T72wT-q9Y&usqp=CAU"
+    },
+    {
+      "id": 6,
+      "name": "Poster Senhor dos Anéis",
+      "description": "Poster decorativo do mapa da Terra Média, da série Senhor dos Anéis.",
+      "price": 35,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGlQ0eNJ59uNaTtU4v4mTwvLw3HGFDX0kxo4OSrPnNLR5pcKU5J2DYG9qJppe_4bBVFsI&usqp=CAU"
+    },
+    {
+      "id": 7,
+      "name": "Caderno Programador",
+      "description": "Caderno de notas com capa temática para programadores.",
+      "price": 25,
+      "image": "https://images.tcdn.com.br/img/img_prod/681327/caderno_programador_function_repeat_7769_2_ea99afcf9dc6dabc1268e96533731423.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Chaveiro Controlador de Videogame",
+      "description": "Chaveiro em formato de controlador de videogame retro.",
+      "price": 12.9,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlji0ZTiee6_EfWHXNWpifPJgMGicokb-n1A&s"
+    }
+  ]
+}
