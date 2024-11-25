@@ -1,5 +1,7 @@
 # Alura Geek
 
+<img src="./readme-imgs/Badge-AluraGeek.png" alt="badge ONE" style="width: 200px;"/>
+
 Projeto desenvolvido como desafio do curso **"Praticando Front End: Challenge AluraGeek"** para o programa **ONE - Oracle Next Education**, uma parceria entre a **Oracle Corporation** e a **Alura**.
 
 O objetivo foi criar um site utilizando **HTML**, **CSS** e **JavaScript**, implementando funcionalidades de **CRUD** para gerenciar produtos de uma loja geek.
